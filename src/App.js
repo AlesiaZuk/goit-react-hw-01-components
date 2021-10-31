@@ -11,6 +11,7 @@ import TransactionHistory from './components/TransactionHistory/TransactionHisto
 import Container from './components/Container/Container';
 
 function App() {
+  const sectionStyle = ['section'];
   return (
     <>
       <section>
@@ -37,7 +38,7 @@ function App() {
           </FriendList>
         </Container>
       </section>
-      <section>
+      <section className={sectionStyle}>
         <Container>
           <TransactionHistory items={transactions} />
         </Container>

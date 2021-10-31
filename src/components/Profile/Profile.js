@@ -13,7 +13,7 @@ function Profile({ name, tag, location, avatar, stats }) {
         />
         <p className={s.name}>{name}</p>
         <p className={s.tag}>@{tag}</p>
-        <p className={s.location}>{location}</p>
+        <p>{location}</p>
       </div>
       <ul className={s.stats}>
         <li className={s.item}>

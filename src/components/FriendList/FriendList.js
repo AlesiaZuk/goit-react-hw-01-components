@@ -7,7 +7,7 @@ function FriendList({ children }) {
       <div className={s.titleContainer}>
         <h2 className={s.title}>Friends</h2>
       </div>
-      <ul className={s.list}>{children}</ul>;
+      <ul>{children}</ul>
     </div>
   );
 }
