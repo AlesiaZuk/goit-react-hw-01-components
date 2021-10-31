@@ -1,6 +1,18 @@
-.online {
-  background-color: green;
+.friends {
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 300px;
 }
-.offline {
-  background-color: red;
+
+.titleContainer {
+  padding: 10px 0px 10px 0px;
+
+  background-color: #fff;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
 }

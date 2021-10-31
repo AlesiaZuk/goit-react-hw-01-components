@@ -1,1 +1,42 @@
 @import-normalize;
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+  color: #000;
+  background-color: rgb(238, 236, 236);
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile {
+  padding: 10px 0px 10px 0px;
+}
